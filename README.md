@@ -37,7 +37,9 @@ In this website, i have used :-
 libraries used in react are :-
 
 1.react-router-dom
+
 2.recoil
+
 3.axios
 
 THANK YOU FOR VIEWING MY SITE!!
