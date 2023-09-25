@@ -34,7 +34,8 @@ In this website, i have used :-
 3. react.js
 4. node.js
 
-libraries used in react are:-
+libraries used in react are :-
+
 1.react-router-dom
 2.recoil
 3.axios
