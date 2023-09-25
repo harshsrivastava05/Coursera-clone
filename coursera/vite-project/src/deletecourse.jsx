@@ -57,11 +57,10 @@ function Course({ course, courseId }) {
     return (<>
 
         <div style={{
-            marginTop:"10px",
-            height: "50vh",
+            marginTop: "10px",
             width: "100vw",
-            borderRadius:"30px",
-            background: "linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,111,1) 35%, rgba(6,188,224,1) 100%)"
+            borderRadius: "30px",
+            height: 250, background: "#212121"
         }}>
 
 
@@ -69,7 +68,7 @@ function Course({ course, courseId }) {
                 style={{
                     display: "flex",
                     flexDirection: "column",
-                    marginLeft:"38%",
+                    marginLeft: "38%",
                     width: 350,
                     alignSelf: "center",
                     marginTop: 130,
@@ -94,8 +93,8 @@ function Course({ course, courseId }) {
                     </Typography>
                     <br />
                     <Typography gutterBottom variant="h7" component="div">
-                   MRP : {course.price}Rs
-                </Typography>
+                        MRP : {course.price}Rs
+                    </Typography>
                 </CardContent>
                 <CardActions style={{
                     justifyContent: "space-evenly"
